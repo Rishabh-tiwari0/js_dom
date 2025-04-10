@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Review Form</title>
+  </head>
+  <body>
+    <form action="#" method="get" class="container">
+      <label for="product">Select your favourite chocolate:</label>
+      <select name="product" id="product">
+        <option value="cadabury">Cadbury</option>
+        <option value="fivestar">Five Star</option>
+        <option value="dairyMilk">Dairy Milk</option>
+        <option value="munch">Munch</option>
+        <option value="kitkat">KitKat</option>
+      </select>
+      <br />
+
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" />
+      <br />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" />
+      <br />
+
+      <label for="review">Give us your feedback:</label>
+      <textarea id="review" name="review"></textarea>
+      <p class="limit">Character remaining 200</p>
+      <br />
+
+      <input type="submit" id="submit" />
+    </form>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
+<!-- server side form validation -->
+<!-- client side -->
+<!-- are all fields filled -->
+<!-- is email valid -->
+<!-- is review more than 10 characters -->
+<!-- is name more than 3 characters -->
